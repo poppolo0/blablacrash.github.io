@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Bla Bla Crash</title>
-    <link>/tags/</link>
+    <link>https://poppolo0.github.io/blablacrash.github.io/tags/</link>
     <description>Recent content in Tags on Bla Bla Crash</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>lorenzomauriello@gmail.com (Lorenzo Mauriello)</managingEditor>
     <webMaster>lorenzomauriello@gmail.com (Lorenzo Mauriello)</webMaster>
     <copyright>© 2026 Lorenzo Mauriello</copyright>
-    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://poppolo0.github.io/blablacrash.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>

@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bla Bla Crash</title>
-    <link>/</link>
+    <link>https://poppolo0.github.io/blablacrash.github.io/</link>
     <description>Recent content on Bla Bla Crash</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>lorenzomauriello@gmail.com (Lorenzo Mauriello)</managingEditor>
     <webMaster>lorenzomauriello@gmail.com (Lorenzo Mauriello)</webMaster>
     <copyright>© 2026 Lorenzo Mauriello</copyright>
-    <lastBuildDate></lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate></lastBuildDate><atom:link href="https://poppolo0.github.io/blablacrash.github.io/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
