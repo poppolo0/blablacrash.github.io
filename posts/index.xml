@@ -9,7 +9,17 @@
     <managingEditor>lorenzomauriello@gmail.com (Lorenzo Mauriello)</managingEditor>
     <webMaster>lorenzomauriello@gmail.com (Lorenzo Mauriello)</webMaster>
     <copyright>© 2026 Lorenzo Mauriello</copyright>
-    <lastBuildDate></lastBuildDate><atom:link href="https://poppolo0.github.io/blablacrash.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Jan 2026 17:00:10 +0100</lastBuildDate><atom:link href="https://poppolo0.github.io/blablacrash.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>VaultWarden Password Manager</title>
+      <link>https://poppolo0.github.io/blablacrash.github.io/posts/vault/vault/</link>
+      <pubDate>Sat, 17 Jan 2026 17:00:10 +0100</pubDate>
+      <author>lorenzomauriello@gmail.com (Lorenzo Mauriello)</author>
+      <guid>https://poppolo0.github.io/blablacrash.github.io/posts/vault/vault/</guid>
+      <description></description>
+      
+    </item>
     
   </channel>
 </rss>
