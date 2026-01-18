@@ -2,24 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bla Bla Crash</title>
-    <link>//localhost:1313/</link>
+    <link>/</link>
     <description>Recent content on Bla Bla Crash</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>lorenzomauriello@gmail.com (Lorenzo Mauriello)</managingEditor>
     <webMaster>lorenzomauriello@gmail.com (Lorenzo Mauriello)</webMaster>
     <copyright>© 2026 Lorenzo Mauriello</copyright>
-    <lastBuildDate>Sat, 17 Jan 2026 17:00:10 +0100</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>VaultWarden Password Manager</title>
-      <link>//localhost:1313/posts/introduzione/</link>
-      <pubDate>Sat, 17 Jan 2026 17:00:10 +0100</pubDate>
-      <author>lorenzomauriello@gmail.com (Lorenzo Mauriello)</author>
-      <guid>//localhost:1313/posts/introduzione/</guid>
-      <description></description>
-      
-    </item>
+    <lastBuildDate></lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
