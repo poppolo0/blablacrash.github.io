@@ -221,7 +221,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "768"
+    "wordCount": "860"
   }]
   </script>
 
@@ -589,7 +589,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2026-01-17T17:00:10&#43;01:00">17 January 2026</time><span class="px-2 text-primary-500">&middot;</span><span>768 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span><span class="px-2 text-primary-500">&middot;</span><span>
+      <time datetime="2026-01-17T17:00:10&#43;01:00">17 January 2026</time><span class="px-2 text-primary-500">&middot;</span><span>860 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span><span class="px-2 text-primary-500">&middot;</span><span>
   
   
     
@@ -748,14 +748,14 @@
     </span>
     
 </h2>
-<p>Negli ultimi anni molti #Servizi ed aspetti relativi alla #SicurezzaInformatica sono stati progressivamente ridotti ad un problema di <em>outsourcing</em>: affidare dati, flussi di lavoro e credenziali a piattaforme esterne è diventata la norma, spesso senza una reale valutazione delle conseguenze a lungo termine.
-Questa impostazione, apparentemente efficiente, nasconde un errore strategico: <strong>confondere la comodità con il controllo</strong>.</p>
+<p>Negli ultimi anni molti #Servizi ed aspetti relativi alla #SicurezzaInformatica, sono stati progressivamente ridotti ad un problema di <em>outsourcing</em> affidando dati, flussi di lavoro e credenziali a piattaforme esterne.
+Questa impostazione, apparentemente efficiente, nasconde un errore strategico, ovvero <strong>confondere la comodità con il controllo</strong>.</p>
 <p>Questo approccio offre indubbi vantaggi in termini di rapidità di adozione, ma spesso riduce la visibilità su aspetti fondamentali come la collocazione dei dati, i meccanismi di accesso e le modalità con cui vengono applicate le politiche di sicurezza.</p>
-<p>Un semplice esempio può riguardare la gestione delle credenziali, pur essendo talvolta considerata un servizio di supporto, influisce direttamente sulla sicurezza complessiva di un sistema informativo. In questo contesto, la scelta di gestire internamente un password manager può offrire benefici concreti: maggiore trasparenza operativa, possibilità di audit indipendenti e un controllo più preciso sui flussi di accesso e sulle configurazioni adottate.</p>
+<p>Un semplice esempio può riguardare la gestione delle credenziali che, pur essendo talvolta considerato un servizio di supporto, influisce direttamente sulla sicurezza complessiva di un sistema informativo. In questo contesto, la scelta di gestire internamente un password manager può offrire benefici concreti, come una maggiore trasparenza operativa, possibilità di audit indipendenti e un controllo più preciso sui flussi di accesso e sulle configurazioni adottate.</p>
 <p>Soluzioni autogestite e #OpenSource come <strong>#VaultWarden</strong> permettono di valutare in modo diretto il funzionamento del software che custodisce dati sensibili, integrandolo all’interno di infrastrutture già esistenti e adattandolo a requisiti specifici. Questo approccio non elimina la complessità, ma consente di governarla, trasformando la sicurezza da servizio delegato a componente consapevolmente gestita.</p>
-<p>In questo contesto, parlare di <strong>#SovranitàDigitale</strong> non è un esercizio ideologico, ma una necessità tecnica e strategica. Sovranità significa poter:</p>
+<p>In questo contesto, parlare di <strong>#SovranitàDigitale</strong> non è un esercizio ideologico, ma una necessità tecnica e strategica. Sovranità Digitale significa poter:</p>
 <ul>
-<li>verificare il codice che gestisce i propri segreti,</li>
+<li>verificare il codice che gestisce i propri &ldquo;segreti&rdquo;,</li>
 <li>decidere dove risiedono i dati,</li>
 <li>stabilire chi può accedervi e secondo quali regole,</li>
 <li>continuare a operare anche in assenza di fornitori terzi.</li>
@@ -772,7 +772,8 @@ Questa impostazione, apparentemente efficiente, nasconde un errore strategico: <
     
 </h2>
 <p>Uno degli argomenti più ricorrenti contro le soluzioni autogestite è la presunta complessità di implementazione. In realtà, nel caso di Vaultwarden, <strong>l’avvio del servizio è tecnicamente semplice</strong> e richiede risorse minime, soprattutto se inserito in un contesto già orientato alla containerizzazione.</p>
-<p>Un esempio concreto è l’utilizzo di <strong>#DockerCompose</strong>, che consente di descrivere l’intero servizio in un singolo file, versionabile e riproducibile. Con poche direttive è possibile definire:</p>
+<p>Un esempio concreto è l’utilizzo di <strong>#DockerCompose</strong>, che consente di descrivere l’intero servizio in un singolo file, versionabile e riproducibile.</p>
+<p>Con poche direttive è possibile definire:</p>
 <ul>
 <li>il servizio Vaultwarden,</li>
 <li>la persistenza dei dati,</li>
@@ -781,12 +782,12 @@ Questa impostazione, apparentemente efficiente, nasconde un errore strategico: <
 </ul>
 <p>Il risultato è un password manager pienamente operativo in pochi minuti, avviabile con un singolo comando e facilmente integrabile in ambienti di test, laboratorio o produzione.</p>
 
-<h3 class="relative group">Implementazione
-    <div id="implementazione" class="anchor"></div>
+<h3 class="relative group">Implementazione ed Analisi
+    <div id="implementazione-ed-analisi" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#implementazione" aria-label="Anchor">#</a>
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#implementazione-ed-analisi" aria-label="Anchor">#</a>
     </span>
     
 </h3>
@@ -825,7 +826,7 @@ Questa impostazione, apparentemente efficiente, nasconde un errore strategico: <
 </span></span></span><span class="line"><span class="cl"><span class="err"></span>networks:<span class="err">
 </span></span></span><span class="line"><span class="cl"><span class="err"></span>  vaultwarden_network:<span class="err">
 </span></span></span><span class="line"><span class="cl"><span class="err"></span>    driver: bridge</span></span></code></pre></div></div>
-<p>Creiamo un banale stack di rete con un bridge per utilizzare gli fqdn in modo molto semplice, fatto questo possiamo instanziare sia un Proxy #Nginx, utilizzato in questo caso come Reverse Proxy, e anche un istanza del nostro password manager.</p>
+<p>Creiamo un banale stack di rete con un bridge per utilizzare gli fqdn in modo trasparente ai servizi, fatto questo possiamo instanziare sia un Proxy #Nginx, utilizzato in questo caso come Reverse Proxy, e anche un&rsquo;istanza del nostro password manager.</p>
 <p>Prima dell’avvio del servizio è necessario predisporre un file <code>nginx.conf</code> che gestisca terminazione SSL e inoltro delle richieste verso Vaultwarden.</p>
 <div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-nginx" data-lang="nginx"><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="k">server</span> <span class="p">{</span>
@@ -843,18 +844,21 @@ Questa impostazione, apparentemente efficiente, nasconde un errore strategico: <
 </span></span><span class="line"><span class="cl">        <span class="kn">proxy_set_header</span> <span class="s">X-Forwarded-Proto</span> <span class="nv">$scheme</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span></span></span></code></pre></div></div>
-<p>Per completare la configurazione occorre solo creare i <strong>certificati ssl</strong> ed inserirli nel volume del servizio dichiarato.</p>
-<p>Arrivati a questo punto possiamo avviare il servizio tramite la stringa <code>docker compose up -d</code> in modo da ottenere un demone permanente all&rsquo;interno del nostro sistema.</p>
-<p>Possiamo constatare che creare un istanza di Vaultwarden <strong>non è difficile</strong>.
+<p>Per completare la configurazione occorre solo creare i <strong>certificati ssl</strong> ed inserirli nel volume del servizio dichiarato.
+Arrivati a questo punto possiamo avviare il servizio tramite la stringa <code>docker compose up -d</code> in modo da ottenere un demone permanente all&rsquo;interno del nostro sistema.</p>
+<p>Ovviamente possiamo implementare quanto appena illustrato in diverse modi, basti pensare che al posto di Nginx (proxy molto complesso e flessibile) si potrebbe utilizzare anche #Caddy (molto più semplice ed immediato), oppure, banalmente, preferire un contesto di containerizzazzione differente, come #Kubernetes.</p>
+<p>Tali scelte dipendono da molte variabili e di solito vengo ottemperate in seguito alla definizione di una strategia ben precisa.</p>
+<p>Constatiamo che creare un&rsquo;istanza di Vaultwarden <strong>non è difficile</strong>.
 La vera sfida inizia dopo.</p>
 <p>L’aspetto più complesso non riguarda la tecnologia in sé, ma <strong>l’integrazione nei processi aziendali</strong>: definire chi accede a cosa, come vengono gestiti i gruppi, quali politiche di rotazione delle credenziali adottare, come allineare il password manager ai flussi di lavoro esistenti.</p>
-<p>È proprio in questa fase che il valore di una soluzione autogestita emerge con maggiore chiarezza. Un password manager ben integrato può:</p>
+<p>È proprio in questa fase che il valore di una soluzione autogestita emerge con maggiore chiarezza. Un password manager ben integrato può garantire diversi vantaggi:</p>
 <ul>
 <li>ridurre il tempo perso nella gestione manuale delle credenziali;</li>
 <li>limitare errori operativi e pratiche insicure;</li>
 <li>migliorare la collaborazione tra team tecnici e non tecnici;</li>
 <li>aumentare la sicurezza senza introdurre attriti inutili.</li>
 </ul>
+<p>Tale disamina vuole essere uno spunto di riflessione per incentivare il pensiero critico verso un modello tecnologico in cui la comodità non  sia al primo posto. Strategie a volte sottovalutate possono rivelarsi vincenti banalmente perchè più efficienti.</p>
 
           
           
